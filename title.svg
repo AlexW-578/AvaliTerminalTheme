@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1606"
+   height="94"
+   viewBox="0 0 1606 94"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="title.svg"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs9">
+    <rect
+       x="9.2909091"
+       y="2.6545455"
+       width="1598.0364"
+       height="92.90909"
+       id="rect233" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.18835616"
+     inkscape:cx="594.61818"
+     inkscape:cy="313.23636"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5" />
+  <text
+     xml:space="preserve"
+     id="text231"
+     style="font-size:72px;line-height:0;white-space:pre;shape-inside:url(#rect233);fill:#000000"
+     x="2293.5608"
+     y="0"
+     transform="matrix(1.3996481,0,0,1.3996481,-12.69515,20.225859)"><tspan
+       x="9.2910156"
+       y="38.654297"
+       id="tspan306"><tspan
+         style="line-height:0px;font-family:'Avali Scratch';-inkscape-font-specification:'Avali Scratch';text-align:justify"
+         id="tspan304">Avali Discord Terminal Interface (c) 2022</tspan></tspan></text>
+</svg>
