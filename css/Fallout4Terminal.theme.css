@@ -1,30 +1,38 @@
 /**
- * @name Fallout 4 Terminal
- * @author Bates#7075
- * @version 1.0.0
- * @source https://github.com/CommandCrafterHD/Fallout4TerminalTheme
- * @website https://commandcrafterhd.github.io/Fallout4TerminalTheme
- * @donate https://www.paypal.com/paypalme/floriancegledi
- * @patreon https://patreon.com/bates
- * @description A theme inspired by Fallout 4's terminals!
- * @authorId 137259132305539072
- * @invite 6qd3SkP6Ch
+ * @name Fallout 4 Terminal Avali
 */
 
-@import url('https://raw.githubusercontent.com/AlexW-578/Fallout4TerminalTheme/main/css/main.css');
+@import url('https://www.alexw-578.co.uk/CSS/DiscordMain.css');
 /* ^ THIS IS THE MAIN IMPORT. DO NOT TOUCH THIS OR THE THEME WILL BREAK. ^ */
 
-@import url('https://commandcrafterhd.github.io/Fallout4TerminalTheme/css/disableCRT.css'); */
+@import url('https://commandcrafterhd.github.io/Fallout4TerminalTheme/css/disableCRT.css');
 /* ^ UNCOMMENT THIS IMPORT IF YOU WANT TO REMOVE THE CRT EFFECT ^ */
 
-/* TO CUSTOMIZE THE THEME, UNCOMMENT THE LINES BELOW AND REPLACE THE VARIABLES */
+/* TO CUSTOMIZE THE THEME, UNCOMMENT THE LINES BELOW AND REPLACE THE VARIABLES https://www.avali.net/assets/img/AvaliLogoWhite.png*/
 
-/* REMOVE THIS LINE TO UNCOMMENT
 
 :root {
-  --background: #000700 !important;
-  --text-color: #4AEF98 !important;
-  --highlight: var(--text-color) !important;
+    --text-color: #ff850d !important;
+    --background: #080400 !important;
+    --backdrop-image: url(https://i.imgur.com/sko49MR.png);
+    --background-shading: 100%;
+    --background-position: center;
+    --background-size: 25%;
+    --background-repeat: no-repeat;
+    --background-attachment: fixed;
+
+
+
 }
 
-   REMOVE THIS LINE TO UNCOMMENT ASWELL */
+.chatContent-3KubbW:before {
+    content: "";
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: var(--backdrop-image) var(--background-position)/var(--background-size) var(--background-repeat);
+    filter: brightness(5%);
+    pointer-events: none
+}
