@@ -497,3 +497,16 @@ body *, .userPopout-3XzG_A * {
 .layerContainer-2v_Sit > *, .enableAnimation-1SgROG, .enableAnimation-1SgROG > * {
   pointer-events: none;
 }
+
+.addFriend-emTWY1{
+    background: var(--highlight) !important;
+}
+
+.circleIcon-3489FI path{
+    fill: var(--highlight);
+}
+
+.selected-2r1Hvo{
+    background: var(--highlight) !important;
+}
+
