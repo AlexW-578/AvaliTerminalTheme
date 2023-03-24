@@ -1,0 +1,47 @@
+/**
+ * @name Fallout 4 Terminal Avali
+*/
+
+@import url('https://old.alexw-578.co.uk/CSS/DiscordMain.css');
+/* ^ THIS IS THE MAIN IMPORT. DO NOT TOUCH THIS OR THE THEME WILL BREAK. ^ */
+
+body::before, .root-2zfUH6::before,
+.standardSidebarView-E9Pc3j::before, .userPopout-2j1gM4::before,
+.inner-1ilYF7::before, .container-1Lk8p7::before, .resultsGroup-cfY57t::before,
+.theme-dark .root-g14mjS::after, .container-ZMc96U.themed-Hp1KC_::after,
+.drawerSizingWrapper-1txdWG::after, .layer-2aCOJ3::after, .container-ZMc96U::after,
+.quickswitcher-pKcM9U::after, .wrapper-3ByaVZ::after, .form-2oOOG9::after,
+.autocompleteInner-y1mjDl::after {
+  display: none;
+}/* ^ UNCOMMENT THIS IMPORT IF YOU WANT TO REMOVE THE CRT EFFECT ^ */
+
+/* TO CUSTOMIZE THE THEME, UNCOMMENT THE LINES BELOW AND REPLACE THE VARIABLES https://www.avali.net/assets/img/AvaliLogoWhite.png*/
+
+
+:root {
+    --text-color: #ff850d !important;
+    --background: #080400 !important;
+    --backdrop-image: url(https://i.imgur.com/sko49MR.png);
+    --background-shading: 100%;
+    --background-position: center;
+    --background-size: 25%;
+    --background-repeat: no-repeat;
+    --background-attachment: fixed;
+
+
+
+}
+
+.chatContent-3KubbW:before {
+    content: "";
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: var(--backdrop-image) var(--background-position)/var(--background-size) var(--background-repeat);
+    filter: brightness(10%);
+    pointer-events: none
+    
+}
+
